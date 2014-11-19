@@ -14,9 +14,9 @@ module ActiveRecordExtension
       UkrnetRss.resource = self
     end
 
-    def posts_for_ukrnet_rss
+    def posts_for_ukrnet_rss(filter=nil)
       res = []
-      UkrnetRss.resource.limit(UkrnetRss.total).map do |post|
+      UkrnetRss.resource.filter_for_ukrnet(filter.split('-').presence).limit(UkrnetRss.total).map do |post|
         subres = {}
         UkrnetRss.rss_structure.each do |attr, inner_attrs|
           if attr==:attributes

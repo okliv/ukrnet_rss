@@ -25,8 +25,8 @@ module UkrnetRss
     config[:total].to_i<MAX_TOTAL&&config[:total].to_i>0 ? config[:total].to_i : TOTAL
   end
 
-  def self.posts
-    self.resource.posts_for_ukrnet_rss
+  def self.posts(filter=nil)
+    self.resource.posts_for_ukrnet_rss(filter)
   end
 
 end

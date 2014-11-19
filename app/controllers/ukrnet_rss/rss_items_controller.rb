@@ -5,7 +5,7 @@ module UkrnetRss
 
     def index
       @channel = UkrnetRss.channel
-      @posts = UkrnetRss.posts
+      @posts = UkrnetRss.posts(params[:filter])
       render :template => 'ukrnet_rss/rss_items/index.rss.builder'
     end
   end
