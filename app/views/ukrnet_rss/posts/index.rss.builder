@@ -18,7 +18,7 @@ xml.rss :version => '2.0', xmlns: 'http://backend.userland.com/rss2', 'xmlns:yan
         xml.author post[:author]
         xml.category post[:category]
         xml.news_image post[:news_image]
-        for asset in post[:assets]
+        for asset in post[:assets].to_a
           type = asset[:video] ? 'video/x-ms-asf' : 'image/jpeg'
           xml.enclosure url: asset[:url], type: type
         end
