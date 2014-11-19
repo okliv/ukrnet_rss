@@ -1,12 +1,12 @@
 module UkrnetRss
-  class RssItemsController < ApplicationController
+  class PostsController < ApplicationController
 
     layout false
 
     def index
       @channel = UkrnetRss.channel
       @posts = UkrnetRss.posts(params[:filter])
-      render :template => 'ukrnet_rss/rss_items/index.rss.builder'
+      render :template => 'ukrnet_rss/posts/index.rss.builder'
     end
   end
 end
