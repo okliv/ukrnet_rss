@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns="http://backend.userland.com/rss2"
-     xmlns:yandex="http://news.yandex.ru">
+<rss version="2.0" xmlns="http://backend.userland.com/rss2" xmlns:yandex="http://news.yandex.ru">
   <channel>
     <title>Кировоградские новости на &amp;quot; FotoInform &amp;quot;</title>
     <link>http://fotka.kr.ua/news</link>

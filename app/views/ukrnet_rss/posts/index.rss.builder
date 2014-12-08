@@ -1,7 +1,8 @@
-xml.instruct! :xml, :version => '1.0'#, encoding: 'UTF-8'
-xml.rss :version => '2.0', xmlns: 'http://backend.userland.com/rss2', 'xmlns:yandex'=>'http://news.yandex.ru' do
+xml.instruct! :xml, :version => '1.0', encoding: 'UTF-8'
+xml.rss :version => '2.0', 'xmlns:yandex'=>'http://news.yandex.ru' do
 
   xml.channel do
+    xml.language 'ru'
     xml.title @channel[:title]
     xml.link @channel[:link]
     xml.description @channel[:description]

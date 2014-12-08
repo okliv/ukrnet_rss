@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru" version="2.0">
+  <channel>
+    <language>ru</language>
+    <title>Укррудпром</title>
+    <link>http://ukrrudprom.ua</link>
+    <description>Укррудпром - информационно-аналитический интернет-ресурс о горно-металлургическом комплексе Укрины
+    </description>
+    <image>
+      <url>http://ukrrudprom.ua/res/i/logo-yarss.gif</url>
+      <title>Укррудпром</title>
+      <link>http://ukrrudprom.ua</link>
+    </image>
+    <item>
+      <title>В ноябре население официально купило валюты на 21 млн долларов больше, чем продало</title>
+      <link>http://ukrrudprom.ua/news/V_noyabre_naselenie_ofitsialno_kupilo_valyuti_na_21_mln_dollarov.html</link>
+      <pubDate>Mon, 8 Dec 2014 18:47:43 +0200</pubDate>
+      <description>Объем операций банков на наличном валютном рынке в ноябре сократился по сравнению с октябрем на
+        $482,7 млн — с $855,8 млн до $373,1 млн
+      </description>
+      <yandex:full-text>В ноябре население купило наличной валюты на $21,3 млн больше, чем продало. Об этом говорится в
+        сообщении Национального банка, пишут Украинские новости.
+        Объем операций банков на наличном валютном рынке в ноябре сократился по сравнению с октябрем на $482,7 млн — с
+        $855,8 млн до $373,1 млн.
+        Напомним, в октябре население купило наличной валюты на $339 млн больше, чем продало.
+      </yandex:full-text>
+      <category>Новости</category>
+    </item>
+     </channel>
+</rss>
