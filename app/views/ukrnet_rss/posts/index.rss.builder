@@ -24,7 +24,7 @@ xml.rss :version => '2.0', 'xmlns:yandex'=>'http://news.yandex.ru' do
           xml.enclosure url: asset[:url], type: type
         end
         xml.pubDate post[:pub_date] #'Sun, 29 Sep 2002 19:59:01 +0400'
-        xml.yandex['full-text'] = post[:full_text]
+        xml.tag!('yandex:full-text', post[:full_text])
       end
     end
   end
